@@ -9,8 +9,8 @@ on:
 
 # Customization: we add these env variables
 env:
-  DOCKER_HUB_NAMESPACE: vengomatto
-  DOCKER_HUB_REPOSITORY: docker-course-1
+  DOCKER_HUB_NAMESPACE: geoalva
+  DOCKER_HUB_REPOSITORY: ssgs_lab5
 
 jobs:
   
