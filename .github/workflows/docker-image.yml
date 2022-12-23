@@ -1,5 +1,9 @@
 # Refer to: https://docs.github.com/en/actions/publishing-packages/publishing-docker-images
 
+- name: Docker Login
+  uses: docker/login-action@v2.1.0
+
+
 name: Docker Image CI
 
 on:
