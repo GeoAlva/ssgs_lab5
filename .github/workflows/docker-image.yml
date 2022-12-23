@@ -8,10 +8,13 @@ name: Docker Image CI
 on:
   release:
     types: [published]
+    push:
+      branches:
+        - "main"
 
 # Customization: we add these env variables
 env:
-  DOCKER_HUB_NAMESPACE: GeoAlva
+  DOCKER_HUB_NAMESPACE: geoalva
   DOCKER_HUB_REPOSITORY: docker-course
 
 jobs:
